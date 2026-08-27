@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int age = 5;
+    int age;
+	  scanf("%d", &age);
 
     if(age>10){
         printf("We are inside if\n");

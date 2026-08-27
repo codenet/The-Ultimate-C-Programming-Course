@@ -5,7 +5,7 @@ int main(){
     do{
        printf("The value of i is %d\n", i);  
        i++;
-    } while (i<4);
+    } while (i<-1);
     
     
     return 0;

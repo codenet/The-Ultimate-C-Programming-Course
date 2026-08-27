@@ -5,6 +5,6 @@ int main(){
     char ch = 'a';
     ch = 'c';
     ch = '\n'; // represents a new line
-    printf("Hey I am good \\n nice");
+    printf("Hey I am good \\n nice%c", ch);
     return 0;
 }

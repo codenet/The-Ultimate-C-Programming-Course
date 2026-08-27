@@ -9,6 +9,7 @@ int main(){
     printf("The value of i is %d\n", i);
     printf("The value of i is %d\n", *j);
     printf("The value of i is %d\n", *(&i));
+    printf("The value of i is %d\n", **k);
     printf("The value of i is %d\n", **(&j));
 
     return 0;
