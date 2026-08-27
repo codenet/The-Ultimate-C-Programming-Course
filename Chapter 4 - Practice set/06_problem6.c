@@ -2,23 +2,8 @@
 
 int main()
 {
-    // USING DO WHILE LOOP:
-    // int i = 1;
-    // int sum = 0;
-    // do{
-    //     sum += i;
-    //     i++;
-    // } while (i <= 10);
-
-    // USING FOR LOOP:
-    int sum = 0;
-    for (int i = 1; i <= 10; i++)
-    {
-        sum += i;
-    }
-    
-
-
-    printf("The sum of first 10 natural numbers is %d", sum);
+    int i, sum;
+    // USE DO WHILE LOOP and WHILE LOOP to solve the previous problem
+    printf("The sum of first %d natural numbers is %d", i, sum);
     return 0;
 }

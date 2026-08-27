@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-float average(int a, int b, int c);
-
-float average(int a, int b, int c){
-    return (a+b+c)/3.0;
-}
+float average(int, int, int);
+// Create function definition of average 
 
 
 int main(){

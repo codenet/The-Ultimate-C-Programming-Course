@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    // int length = 3;
-    // int breadth = 6;
     int length, breadth;
     printf("Enter length\n");
-    scanf("%d", &length);
+    scanf("%d", /* ?? */);
 
     printf("Enter breadth\n");
-    scanf("%d", &breadth);
+    scanf("%d", /* ?? */);
 
-    printf("The area of this rectangle is %d", length*breadth);
+    printf("The area of this rectangle is %d", /* ?? */);
     return 0;
 }

@@ -5,13 +5,8 @@ int main(){
     printf("Enter year: \n");
     scanf("%d", &year);
 
-    if((year %4==0 && year%100!=0) || year %400==0){
-        printf("This is a leap year");
-    }
-    else{
-        printf("This is not a leap year");
-    }
-
+    // Either print "This is a leap year" or "This is not a leap year"
+    // depending on the input year
 
     return 0;
 }

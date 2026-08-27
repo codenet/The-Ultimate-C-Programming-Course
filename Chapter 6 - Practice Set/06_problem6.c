@@ -5,7 +5,7 @@ int main(){
     int* ptr1 = &i;
     int** ptr2 = &ptr1;
     printf("The address of i is %u\n", &i);
-    printf("The value of i is %d\n", *ptr1);
-    printf("The value of i is %d\n", **ptr2);
+    // Print value of i using just ptr1
+    // Print value of i using just ptr2
     return 0;
 }

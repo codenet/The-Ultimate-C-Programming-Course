@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+    // Explain what this code is doing
     int income;
     float tax=0; 
     printf("Enter income: \n");

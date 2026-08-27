@@ -2,9 +2,6 @@
 
 int main(){
     int marks1, marks2, marks3;
-    // int value_of_harrys_marks;
-    // int value_of_rohans_marks;
-    // printf("%d",value_of_harrys_marks )
     printf("Enter marks1: \n");
     scanf("%d", &marks1);
     printf("Enter marks2: \n");
@@ -13,14 +10,13 @@ int main(){
     scanf("%d", &marks3);
     printf("The marks are %d %d and %d\n", marks1, marks2, marks3);
 
-    if(marks1<33 || marks2<33 || marks3<33){
-        printf("You are failed due to less marks in individual subject(s)\n"); 
-    }
-    else if((marks1 + marks2 + marks3)/3 <40){
-        printf("You are failed due less percentage\n"); 
-    }
-    else{
-        printf("You are passed!");
-    }
+    // Print following if marks are below 33 in any subject
+    // You have failed due to less than 33 marks in a subject(s)
+
+    // Print following if total percentage is below 40
+    // You have failed due less percentage
+
+    // Otherwise print 
+    // You are passed!
     return 0;
 }
