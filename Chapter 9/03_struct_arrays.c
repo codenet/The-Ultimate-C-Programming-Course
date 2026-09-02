@@ -9,11 +9,9 @@ struct employee
 
 int main()
 {
-    struct employee facebook[100]; // an array of structures
+    struct employee iitd[100]; // an array of structures
     // we can access the data using:
-    facebook[0].code = 100;
-    facebook[1].code = 77;
-    struct employee harry = {100, 71.22, "harry"};
-    printf("%d %f %s", harry.code, harry.salary, harry.name);
+    iitd[0].code = 100;
+    iitd[1].code = 77;
     return 0;
 }

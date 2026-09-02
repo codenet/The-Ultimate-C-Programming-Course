@@ -6,9 +6,9 @@ int main(){
     int* ptr; 
     ptr = (int*) malloc(n * sizeof(int)); 
     ptr[0] = 3;  
-    printf("%d", ptr[0]);
+    printf("%d\n", ptr[0]);
 
     ptr = (int*) realloc(ptr, 10 * sizeof(int)); 
-    printf("%d", ptr[0]);
+    printf("%d\n", ptr[0]);
     return 0;
 }

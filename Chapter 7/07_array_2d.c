@@ -13,19 +13,11 @@ int main()
         }
     }
 
-    // for (int i = 0; i < 3; i++)
-    // {
-    //     for (int j = 0; j < 2; j++)
-    //     {
-    //         printf("The value of arr[%d][%d] is %d\n", i, j, arr[i][j]);
-    //     }
-    // }
-
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 2; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("i=%d, j=%d, %d(%p) ", i, j, arr[i][j], &arr[i][j]);
         }
         printf("\n");
     }

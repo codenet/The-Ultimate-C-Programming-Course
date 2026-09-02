@@ -7,7 +7,7 @@ int main(){
     //     printf("%c", st[i]);  
     // }
 
-    printf("%s", st);
+    printf("%s\n", st);
     
     
     return 0;

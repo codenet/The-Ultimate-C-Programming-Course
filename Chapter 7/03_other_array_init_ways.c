@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int cgpa[] = {9, 8, 8};
+    int cgpa[] = {9, 8, 8};	// inline initialization of array cgpa
       for (int i = 0; i < 3; i++)
     {
         printf("The value of array at index %d is %d\n", i, cgpa[i]);

@@ -14,8 +14,7 @@ int main()
     struct employee *ptr;
     ptr = &e1;
     // now we can print structure elements using:
-    // printf("%d", (*ptr).code);
-    printf("%d", ptr->code); // Exactly same as  (*ptr).code
+    printf("(*ptr).code=%d, ptr->code=%d\n", (*ptr).code, ptr->code); // Exactly same
 
     return 0;
 }

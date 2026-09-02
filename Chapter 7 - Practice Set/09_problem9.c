@@ -8,6 +8,7 @@ int main(){
         {
             for (int k = 0; k < 4; k++)
             {
+                // understand the memory layout of 3d arrays
                 printf("%u ", &arr[i][j][k]);
             }
             

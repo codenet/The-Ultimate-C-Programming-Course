@@ -2,9 +2,7 @@
 
 float c2f(float);
 
-float c2f(float c){
-    return ((9*c)/5) + 32;
-}
+// Create function definition of c2f
 
 int main(){
     float c = 45;

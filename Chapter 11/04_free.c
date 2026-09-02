@@ -2,13 +2,11 @@
 #include <stdlib.h>
 
 int main(){
-    int n;
+    int n=100;
     int* ptr;
-    scanf("%d", &n);
     ptr = (int*) malloc(n * sizeof(int));
-    // int arr[n]; // Not allowed in c
     ptr[0] = 3; 
     free(ptr);
-    printf("%d", ptr[0]);
+    printf("%d\n", ptr[0]);	// Free just tells the allocator. Does not write 0s on the freed memory
     return 0;
 }
